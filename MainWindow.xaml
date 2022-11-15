@@ -1,0 +1,100 @@
+﻿<Window x:Class="Platos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Platos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <UniformGrid Grid.Column="0">
+            <GroupBox>
+                <StackPanel>
+                    <TextBlock>Hamburguesa</TextBlock>
+                    <Image Source="./Assets/FotosPlatos/burguer.jpg" Margin="5"></Image>
+                    <DockPanel LastChildFill="False">
+                        <TextBlock DockPanel.Dock="Left">A</TextBlock>
+                        <TextBlock DockPanel.Dock="Right">A</TextBlock>
+                    </DockPanel>
+                </StackPanel>
+
+            </GroupBox>
+            <GroupBox>
+                <StackPanel>
+                    <TextBlock>Hamburguesa</TextBlock>
+                    <Image Source="./Assets/FotosPlatos/burguer.jpg" Margin="5"></Image>
+                    <DockPanel LastChildFill="False">
+                        <TextBlock DockPanel.Dock="Left">A</TextBlock>
+                        <TextBlock DockPanel.Dock="Right">A</TextBlock>
+                    </DockPanel>
+                </StackPanel>
+
+            </GroupBox>
+            <GroupBox>
+                <StackPanel>
+                    <TextBlock>Hamburguesa</TextBlock>
+                    <Image Source="./Assets/FotosPlatos/burguer.jpg" Margin="5"></Image>
+                    <DockPanel LastChildFill="False">
+                        <TextBlock DockPanel.Dock="Left">A</TextBlock>
+                        <TextBlock DockPanel.Dock="Right">A</TextBlock>
+                    </DockPanel>
+                </StackPanel>
+
+            </GroupBox>
+            <GroupBox>
+                <StackPanel>
+                    <TextBlock>Hamburguesa</TextBlock>
+                    <Image Source="./Assets/FotosPlatos/burguer.jpg" Margin="5"></Image>
+                    <DockPanel LastChildFill="False">
+                        <TextBlock DockPanel.Dock="Left">A</TextBlock>
+                        <TextBlock DockPanel.Dock="Right">A</TextBlock>
+                    </DockPanel>
+                </StackPanel>
+
+            </GroupBox>
+            <GroupBox>
+                <StackPanel>
+                    <TextBlock>Hamburguesa</TextBlock>
+                    <Image Source="./Assets/FotosPlatos/burguer.jpg" Margin="5"></Image>
+                    <DockPanel LastChildFill="False">
+                        <TextBlock DockPanel.Dock="Left">A</TextBlock>
+                        <TextBlock DockPanel.Dock="Right">A</TextBlock>
+                    </DockPanel>
+                </StackPanel>
+
+            </GroupBox>
+
+
+
+        </UniformGrid>
+        <GroupBox Grid.Column="1" Margin="5" Background="LightGray" >
+            
+            <StackPanel>
+                <TextBlock>Nombre del plato</TextBlock>
+                <TextBox></TextBox>
+                <TextBlock>Foto del plato</TextBlock>
+                <TextBox></TextBox>
+                <TextBlock>Tipo de comida</TextBlock>
+                <TextBox></TextBox>
+
+                <GroupBox Header="Alergenos">
+                    <UniformGrid>
+                        <CheckBox>Leche</CheckBox>
+                        <CheckBox>Gluten</CheckBox>
+                        <CheckBox>Soja</CheckBox>
+                        <CheckBox>Sulfitos</CheckBox>
+                    </UniformGrid>
+
+
+                </GroupBox>
+                <Button Width="200">Limpiar Seleccion</Button>
+            </StackPanel>
+        </GroupBox>
+        
+
+    </Grid>
+</Window>
